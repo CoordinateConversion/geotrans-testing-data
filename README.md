@@ -36,4 +36,13 @@ VBoxHeadless --startvm GEOTRANS
 
 # install prereqs for next steps
 sudo apt install -y dkms build-essential
+
+# create a kickstart file
+#https://access.redhat.com/labs/kickstartconfig/
+
 ```
+
+# To-Dos
+Figure out how to boot with kickstart file through VirtualBox.
+Maybe this will help
+https://gist.github.com/jtyr/816e46c2c5d9345bd6c9
